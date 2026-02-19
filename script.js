@@ -1,3 +1,3 @@
-var name = "Lynn";
-console.log("Welcome to the JavaScript world", + name + "!");
+var userName = "Lynn";
+console.log("Welcome to the JavaScript world", userName + "!");
 
