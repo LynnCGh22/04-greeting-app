@@ -1,3 +1,3 @@
-var userName = "Lynn";
+let userName = "Lynn";
 console.log("Welcome to the JavaScript world", userName + "!");
 
