@@ -8,4 +8,10 @@ const message = document.getElementById("message");
 // Add click event
 button.addEventListener("click", function() {
   message.textContent = `Welcome, ${userName}!`;
+  if (userName === "") {
+    message.textContent = "Oops! Please enter your name 😊";
+    return;
+  }
+
+  message.textContent = `Welcome, ${userName}! 🚀 You're officially part of the Hello Hub crew!`;
 });
